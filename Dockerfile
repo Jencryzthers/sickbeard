@@ -22,7 +22,7 @@ apt-get install -qy python python-cheetah ca-certificates wget unrar unzip && \
 # Install SickBeard
 mkdir /opt/sickbeard && \
 cd /tmp && \
-wget https://github.com/midgetspy/Sick-Beard/archive/master.zip && \
+wget https://github.com/sarakha63/Sick-Beard/archive/master.zip && \
 unzip master.zip && \
 mv Sick-Beard-master/* /opt/sickbeard/ && \
 chown nobody:users /opt/sickbeard
